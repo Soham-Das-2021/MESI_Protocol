@@ -1,3 +1,4 @@
+//Here, 2 cores have been considered and hence 2 L1 Caches have defined
 module MESI(clk,Pr_Rd_1,Bus_Rd_C_1,Bus_Rd_IC_1,Pr_Wr_1,Bus_RdX_1,Bus_Upgr_1,Flush_1,Flush_Opt_1,Cache1_pointer,Cache2_pointer,effective_address_1,Pr_Rd_2,Bus_Rd_C_2,Bus_Rd_IC_2,Pr_Wr_2,Bus_RdX_2,Bus_Upgr_2,Flush_2,Flush_Opt_2,effective_address_2);   
 
 input clk;  //Clock signal
